@@ -145,13 +145,16 @@ public class PrismManager
                 prism.getSettings().set(PrismSettings.PRISM_EXPORT_ADV, "DTMC");
                 prism.getSettings().set(PrismSettings.PRISM_EXPORT_ADV_FILENAME,directory + timeOfDay + "/adv.tra");
                 prism.setExportProductStates(true);
-                prism.setExportProductStatesFilename(directory + timeOfDay + "/adv.sta");
-                //prism.setExportProductLabels(true);
-                //prism.setExportLabelsFilename(directory + timeOfDay + "/adv.lab");
+                prism.setExportProductStatesFilename(directory + timeOfDay + "/prod.sta");
+                prism.setExportProductTrans(true);
+                prism.setExportProductTransFilename(directory + timeOfDay + "/prod.tra");
+                prism.setExportTarget(true);
+                prism.setExportTargetFilename(directory + timeOfDay + "/prod.lab");
             } else {
                 prism.getSettings().set(PrismSettings.PRISM_EXPORT_ADV, "None");
                 prism.setExportProductStates(false);
-                //prism.setExportLabels(false);
+                prism.setExportProductTrans(false);
+                prism.setExportTarget(false);
             }
             
 
