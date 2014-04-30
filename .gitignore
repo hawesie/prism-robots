@@ -4,4 +4,4 @@
 *~
 *.log
 prism/bin/*
-*.svn*
+*.a
