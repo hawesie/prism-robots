@@ -1,7 +1,7 @@
 10
 
 dir
-8170
+8171
 https://www.prismmodelchecker.org/svn/prism/prism/branches/prism-robots/prism-examples
 https://www.prismmodelchecker.org/svn/prism
 
@@ -25,30 +25,6 @@ dxp
 
 
 bbc10eb1-c90d-0410-af57-cb519fbb1720
-
-kanban
-dir
-
-rabin
-dir
-
-self-stabilisation
-dir
-
-phil
-dir
-
-leader
-dir
-
-wlan
-dir
-
-dice
-dir
-
-polling
-dir
 
 mutual
 dir
@@ -133,5 +109,29 @@ dining_crypt
 dir
 
 embedded
+dir
+
+kanban
+dir
+
+rabin
+dir
+
+leader
+dir
+
+phil
+dir
+
+self-stabilisation
+dir
+
+wlan
+dir
+
+polling
+dir
+
+dice
 dir
 

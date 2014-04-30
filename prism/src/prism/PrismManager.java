@@ -65,7 +65,7 @@ public class PrismManager
             directory=System.getProperty("user.home")+"/tmp/prism/";
                         
             // Init PRISM
-            mainLog = new PrismFileLog("stdout");
+            mainLog = new PrismDevNullLog(); 
             prism = new Prism(mainLog, mainLog);
             prism.initialise();
         }

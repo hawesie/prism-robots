@@ -1,7 +1,7 @@
 10
 
 dir
-8170
+8171
 https://www.prismmodelchecker.org/svn/prism/prism/branches/prism-robots/prism-examples/pta/repudiation
 https://www.prismmodelchecker.org/svn/prism
 
@@ -26,9 +26,9 @@ dxp
 
 bbc10eb1-c90d-0410-af57-cb519fbb1720
 
-malicious
+honest
 dir
 
-honest
+malicious
 dir
 

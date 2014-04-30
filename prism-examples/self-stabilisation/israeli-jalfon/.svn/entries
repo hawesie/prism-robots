@@ -1,7 +1,7 @@
 10
 
 dir
-8170
+8171
 https://www.prismmodelchecker.org/svn/prism/prism/branches/prism-robots/prism-examples/self-stabilisation/israeli-jalfon
 https://www.prismmodelchecker.org/svn/prism
 
@@ -196,40 +196,6 @@ dxp
 
 1259
 
-ij8.nm
-file
-
-
-
-
-2014-02-03T08:43:59.397120Z
-b781f4efea1c8d9b917d857f82aafc0e
-2009-05-21T13:17:42.091146Z
-1080
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1346
-
 ij.pctl
 file
 
@@ -263,6 +229,40 @@ dxp
 
 
 700
+
+ij8.nm
+file
+
+
+
+
+2014-02-03T08:43:59.397120Z
+b781f4efea1c8d9b917d857f82aafc0e
+2009-05-21T13:17:42.091146Z
+1080
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1346
 
 ij9.nm
 file
@@ -400,40 +400,6 @@ dxp
 
 1535
 
-ij20.nm
-file
-
-
-
-
-2014-02-03T08:43:59.398120Z
-06fc9366461568d213d9bdf0950cfbd4
-2009-05-21T13:17:42.091146Z
-1080
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2475
-
 ij11.nm
 file
 
@@ -468,14 +434,14 @@ dxp
 
 1629
 
-ij21.nm
+ij20.nm
 file
 
 
 
 
-2014-02-03T08:43:59.399120Z
-919d4e1e52f704c14e385e4c3fe705c0
+2014-02-03T08:43:59.398120Z
+06fc9366461568d213d9bdf0950cfbd4
 2009-05-21T13:17:42.091146Z
 1080
 dxp
@@ -500,7 +466,7 @@ dxp
 
 
 
-2569
+2475
 
 ij12.nm
 file
@@ -535,6 +501,40 @@ dxp
 
 
 1723
+
+ij21.nm
+file
+
+
+
+
+2014-02-03T08:43:59.399120Z
+919d4e1e52f704c14e385e4c3fe705c0
+2009-05-21T13:17:42.091146Z
+1080
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2569
 
 ij13.nm
 file

@@ -1,7 +1,7 @@
 10
 
 dir
-8170
+8171
 https://www.prismmodelchecker.org/svn/prism/prism/branches/prism-robots/prism/src/simulator/method
 https://www.prismmodelchecker.org/svn/prism
 
@@ -25,6 +25,74 @@ dxp
 
 
 bbc10eb1-c90d-0410-af57-cb519fbb1720
+
+CIconfidence.java
+file
+
+
+
+
+2014-02-03T08:44:00.933122Z
+ab869f95c208adfc9eaaaec1521234a8
+2011-01-17T23:07:19.841882Z
+2391
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3558
+
+SPRTMethod.java
+file
+
+
+
+
+2014-04-30T09:47:13.057142Z
+99dd56322b8508845585becb238077fe
+2014-04-29T19:55:09.525976Z
+8169
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6971
 
 ACIconfidence.java
 file
@@ -433,72 +501,4 @@ dxp
 
 
 5780
-
-CIconfidence.java
-file
-
-
-
-
-2014-02-03T08:44:00.933122Z
-ab869f95c208adfc9eaaaec1521234a8
-2011-01-17T23:07:19.841882Z
-2391
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3558
-
-SPRTMethod.java
-file
-
-
-
-
-2014-04-30T09:47:13.057142Z
-99dd56322b8508845585becb238077fe
-2014-04-29T19:55:09.525976Z
-8169
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6971
 

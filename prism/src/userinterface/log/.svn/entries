@@ -1,7 +1,7 @@
 10
 
 dir
-8170
+8171
 https://www.prismmodelchecker.org/svn/prism/prism/branches/prism-robots/prism/src/userinterface/log
 https://www.prismmodelchecker.org/svn/prism
 
@@ -25,40 +25,6 @@ dxp
 
 
 bbc10eb1-c90d-0410-af57-cb519fbb1720
-
-GUIVisualLogModel.java
-file
-
-
-
-
-2014-02-03T08:44:01.689120Z
-18dcb332f644be6caecf40632ec1f2d5
-2010-02-21T16:46:52.132190Z
-1762
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9477
 
 GUIWindowLog.java
 file
@@ -195,4 +161,38 @@ dxp
 
 
 3038
+
+GUIVisualLogModel.java
+file
+
+
+
+
+2014-02-03T08:44:01.689120Z
+18dcb332f644be6caecf40632ec1f2d5
+2010-02-21T16:46:52.132190Z
+1762
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9477
 

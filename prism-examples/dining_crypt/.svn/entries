@@ -1,7 +1,7 @@
 10
 
 dir
-8170
+8171
 https://www.prismmodelchecker.org/svn/prism/prism/branches/prism-robots/prism-examples/dining_crypt
 https://www.prismmodelchecker.org/svn/prism
 
@@ -60,40 +60,6 @@ dxp
 
 2214
 
-dining_crypt4.nm
-file
-
-
-
-
-2014-02-03T08:43:59.249120Z
-13aca139017d142b08d8a1c2d2d9335d
-2007-11-01T12:35:39.434380Z
-498
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2386
-
 .autopp
 file
 
@@ -127,6 +93,40 @@ has-props
 
 
 160
+
+dining_crypt4.nm
+file
+
+
+
+
+2014-02-03T08:43:59.249120Z
+13aca139017d142b08d8a1c2d2d9335d
+2007-11-01T12:35:39.434380Z
+498
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2386
 
 dining_crypt5.nm
 file
@@ -162,40 +162,6 @@ dxp
 
 2559
 
-dining_crypt6.nm
-file
-
-
-
-
-2014-02-03T08:43:59.250120Z
-5af80d95bc5ddaeb4eb6aa8efe4e9c09
-2007-11-01T12:35:39.434380Z
-498
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2732
-
 anonymity.pctl
 file
 
@@ -229,6 +195,40 @@ dxp
 
 
 314
+
+dining_crypt6.nm
+file
+
+
+
+
+2014-02-03T08:43:59.250120Z
+5af80d95bc5ddaeb4eb6aa8efe4e9c09
+2007-11-01T12:35:39.434380Z
+498
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2732
 
 dining_crypt7.nm
 file
@@ -298,40 +298,6 @@ dxp
 
 3079
 
-dining_crypt9.nm
-file
-
-
-
-
-2014-02-03T08:43:59.251120Z
-c9cfde823afedbc734d339f00e10f557
-2007-11-01T12:35:39.434380Z
-498
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3253
-
 correctness.pctl
 file
 
@@ -365,6 +331,40 @@ dxp
 
 
 392
+
+dining_crypt9.nm
+file
+
+
+
+
+2014-02-03T08:43:59.251120Z
+c9cfde823afedbc734d339f00e10f557
+2007-11-01T12:35:39.434380Z
+498
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3253
 
 dining_crypt10.nm
 file
@@ -400,40 +400,6 @@ dxp
 
 3444
 
-dining_crypt15.nm
-file
-
-
-
-
-2014-02-03T08:43:59.250120Z
-8b84ace5a71b7b8d7ca46610311206f5
-2007-11-01T12:35:39.434380Z
-498
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4400
-
 auto
 file
 
@@ -467,6 +433,40 @@ has-props
 
 
 980
+
+dining_crypt15.nm
+file
+
+
+
+
+2014-02-03T08:43:59.250120Z
+8b84ace5a71b7b8d7ca46610311206f5
+2007-11-01T12:35:39.434380Z
+498
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4400
 
 README.txt
 file

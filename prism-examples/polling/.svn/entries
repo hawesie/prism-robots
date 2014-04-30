@@ -1,7 +1,7 @@
 10
 
 dir
-8170
+8171
 https://www.prismmodelchecker.org/svn/prism/prism/branches/prism-robots/prism-examples/polling
 https://www.prismmodelchecker.org/svn/prism
 
@@ -60,14 +60,14 @@ dxp
 
 3011
 
-poll11.sm
+poll20.sm
 file
 
 
 
 
-2014-02-03T08:43:59.479120Z
-1ac6adc2c6b6d664e60149e6d8451937
+2014-02-03T08:43:59.478120Z
+58f548e5537aa0039a218fb9c2b62c56
 2008-07-17T09:47:28.313274Z
 809
 dxp
@@ -92,41 +92,7 @@ dxp
 
 
 
-3253
-
-poll.csl
-file
-
-
-
-
-2014-02-03T08:43:59.479120Z
-ceb4de58324badb71bf1b72d55d15a8d
-2008-07-17T09:47:28.313274Z
-809
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-693
+5431
 
 .autopp
 file
@@ -162,14 +128,14 @@ has-props
 
 178
 
-poll20.sm
+poll.csl
 file
 
 
 
 
-2014-02-03T08:43:59.478120Z
-58f548e5537aa0039a218fb9c2b62c56
+2014-02-03T08:43:59.479120Z
+ceb4de58324badb71bf1b72d55d15a8d
 2008-07-17T09:47:28.313274Z
 809
 dxp
@@ -194,7 +160,41 @@ dxp
 
 
 
-5431
+693
+
+poll11.sm
+file
+
+
+
+
+2014-02-03T08:43:59.479120Z
+1ac6adc2c6b6d664e60149e6d8451937
+2008-07-17T09:47:28.313274Z
+809
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3253
 
 poll12.sm
 file
@@ -434,40 +434,6 @@ dxp
 
 4947
 
-poll19.sm
-file
-
-
-
-
-2014-02-03T08:43:59.481120Z
-b82fe298403d11fe131d6d8ca9791e3e
-2008-07-17T09:47:28.313274Z
-809
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5189
-
 .pollN.sm.pp
 file
 
@@ -501,6 +467,40 @@ dxp
 
 
 1239
+
+poll19.sm
+file
+
+
+
+
+2014-02-03T08:43:59.481120Z
+b82fe298403d11fe131d6d8ca9791e3e
+2008-07-17T09:47:28.313274Z
+809
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5189
 
 poll2.sm
 file

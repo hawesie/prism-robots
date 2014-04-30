@@ -1,7 +1,7 @@
 10
 
 dir
-8170
+8171
 https://www.prismmodelchecker.org/svn/prism/prism/branches/prism-robots/prism-examples/phil_lss
 https://www.prismmodelchecker.org/svn/prism
 
@@ -25,40 +25,6 @@ dxp
 
 
 bbc10eb1-c90d-0410-af57-cb519fbb1720
-
-README.txt
-file
-
-
-
-
-2014-02-03T08:43:59.519089Z
-cbe895d923ed020765c4cfd4c9598fbd
-2010-12-03T10:24:02.402614Z
-2315
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-796
 
 phil_lss3.pctl
 file
@@ -229,4 +195,38 @@ dxp
 
 
 5765
+
+README.txt
+file
+
+
+
+
+2014-02-03T08:43:59.519089Z
+cbe895d923ed020765c4cfd4c9598fbd
+2010-12-03T10:24:02.402614Z
+2315
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+796
 

@@ -1,19 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 58
-/svn/prism/!svn/ver/8169/prism/branches/prism-robots/prism
-END
-install.sh
-K 25
-svn:wc:ra_dav:version-url
-V 69
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/install.sh
-END
-.classpath
-K 25
-svn:wc:ra_dav:version-url
-V 69
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/.classpath
+/svn/prism/!svn/ver/8171/prism/branches/prism-robots/prism
 END
 CHANGELOG.txt
 K 25
@@ -38,4 +26,16 @@ K 25
 svn:wc:ra_dav:version-url
 V 67
 /svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/Makefile
+END
+install.sh
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/install.sh
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/.classpath
 END
