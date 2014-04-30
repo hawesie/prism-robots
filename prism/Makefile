@@ -495,7 +495,7 @@ PRISM_CLASSPATH = "$(THIS_DIR)/$(PRISM_DIR_REL)/$(CLASSES_DIR)$(CLASSPATHSEP)$(T
 
 javadoc:
 	@JAVADOC_DIRS=`echo $(MAKE_DIRS) | sed 's/\//./g' | sed 's/ /:/g'` && \mkdir -p javadoc; javadoc -d javadoc -overview $(SRC_DIR)/overview.html -sourcepath $(SRC_DIR) -classpath $(SRC_DIR)$(CLASSPATHSEP)$(PRISM_CLASSPATH) -subpackages $$JAVADOC_DIRS
-
+	
 clean: checks
 	@(for dir in $(MAKE_DIRS); do \
 	  echo Cleaning src/$$dir ...; \
