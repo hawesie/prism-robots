@@ -102,12 +102,20 @@ public class PrismManager
     
     
     public void setCurrentModel(String timeOfDay){
-        if (! timeOfDay.equals(currentTimeOfDay)){
-            currentTimeOfDay=timeOfDay;
-            ModulesFile model = mdpModels.get(timeOfDay);
-            prism.loadPRISMModel(model);
-        }
+// CANNOT BE USED UNTIL A CHANGE INIT STATE METHOD IS DEFINED IN THE PRISM API        
+//         if (! timeOfDay.equals(currentTimeOfDay)){
+//             currentTimeOfDay=timeOfDay;
+//             ModulesFile model = mdpModels.get(timeOfDay);
+//             prism.loadPRISMModel(model);
+//         }
+        currentTimeOfDay=timeOfDay;
+        ModulesFile model = mdpModels.get(timeOfDay);
+        prism.loadPRISMModel(model);
     }
+    
+    
+    
+    
     
     public boolean addMdpModel(String timeOfDay,String mdpTextFile){
         try{
@@ -126,6 +134,26 @@ public class PrismManager
             return false;
         }
     }
+    
+    public boolean updateMDPModelFromFile(String timeOfDay, String mdpTextFile){
+        try{
+            ModulesFile model = prism.parseModelFile(new File(mdpTextFile));
+            mdpModels.put(timeOfDay,model);
+            if (timeOfDay.equals(currentTimeOfDay)){
+                setCurrentModel(timeOfDay);
+            }
+            return true;
+        }
+        catch (FileNotFoundException e) {
+            System.out.println("Error: " + e.getMessage());
+            return false;
+        }
+        catch (PrismException e) {
+            System.out.println("Error: " + e.getMessage());
+            return false;
+        }
+    }
+        
     
     
     public Result callPrism(String timeOfDay,String ltlTask, boolean generatePolicy)  {
@@ -251,6 +279,17 @@ public class PrismManager
                     System.out.println(result.getResult());
                     toClient = "planned";
                     System.out.println("planned");
+                    out.println(toClient);
+                }
+                if(command.equals("update")){
+                    System.out.println("updating");
+                    timeOfDayCommand=in.readLine();
+                    manager.setCurrentModel(timeOfDayCommand);
+                    System.out.println("time of day: " + timeOfDayCommand);
+                    modelFile=in.readLine();
+                    manager.updateMDPModelFromFile(timeOfDayCommand, modelFile);
+                    toClient = "updated";
+                    System.out.println("updated");
                     out.println(toClient);
                 }
                 if (command.equals("shutdown")){
