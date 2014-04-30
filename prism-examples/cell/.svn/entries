@@ -1,7 +1,7 @@
 10
 
 dir
-8127
+8170
 https://www.prismmodelchecker.org/svn/prism/prism/branches/prism-robots/prism-examples/cell
 https://www.prismmodelchecker.org/svn/prism
 
@@ -25,74 +25,6 @@ dxp
 
 
 bbc10eb1-c90d-0410-af57-cb519fbb1720
-
-auto
-file
-
-
-
-
-2014-02-03T08:43:59.088120Z
-c05f8b711c81bc8e5840146dd2e2c9ea
-2006-03-25T00:12:27.745143Z
-36
-dxp
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-100
-
-README.txt
-file
-
-
-
-
-2014-02-03T08:43:59.088120Z
-0ecca053e9957a3353992463c1fe7b8d
-2010-12-03T10:24:02.402614Z
-2315
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-481
 
 cell.sm
 file
@@ -161,4 +93,72 @@ gxn
 
 
 715
+
+auto
+file
+
+
+
+
+2014-02-03T08:43:59.088120Z
+c05f8b711c81bc8e5840146dd2e2c9ea
+2006-03-25T00:12:27.745143Z
+36
+dxp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100
+
+README.txt
+file
+
+
+
+
+2014-02-03T08:43:59.088120Z
+0ecca053e9957a3353992463c1fe7b8d
+2010-12-03T10:24:02.402614Z
+2315
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+481
 

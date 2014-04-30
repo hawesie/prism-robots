@@ -1,7 +1,7 @@
 10
 
 dir
-8127
+8170
 https://www.prismmodelchecker.org/svn/prism/prism/branches/prism-robots/prism-examples/peer2peer
 https://www.prismmodelchecker.org/svn/prism
 
@@ -25,40 +25,6 @@ dxp
 
 
 bbc10eb1-c90d-0410-af57-cb519fbb1720
-
-README.txt
-file
-
-
-
-
-2014-02-03T08:43:59.270120Z
-01acbd9605d21fd20250f4ae012a0e53
-2010-12-03T10:24:02.402614Z
-2315
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-270
 
 peer2peer4_4.sm
 file
@@ -94,40 +60,6 @@ dxp
 
 2060
 
-peer2peer4_5.sm
-file
-
-
-
-
-2014-02-03T08:43:59.267120Z
-e889f12f85d05a794c320bfd83535c05
-2007-12-03T10:08:50.845208Z
-539
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2250
-
 peer2peer5_4.sm
 file
 
@@ -162,14 +94,14 @@ dxp
 
 2301
 
-peer2peer4_6.sm
+peer2peer4_5.sm
 file
 
 
 
 
-2014-02-03T08:43:59.268121Z
-db259a340e9847a296e09d91f328ff47
+2014-02-03T08:43:59.267120Z
+e889f12f85d05a794c320bfd83535c05
 2007-12-03T10:08:50.845208Z
 539
 dxp
@@ -194,7 +126,7 @@ dxp
 
 
 
-2440
+2250
 
 peer2peer5_5.sm
 file
@@ -230,14 +162,14 @@ dxp
 
 2523
 
-peer2peer4_7.sm
+peer2peer4_6.sm
 file
 
 
 
 
 2014-02-03T08:43:59.268121Z
-4a84726eb591f235e5453e7c7672ba94
+db259a340e9847a296e09d91f328ff47
 2007-12-03T10:08:50.845208Z
 539
 dxp
@@ -262,7 +194,7 @@ dxp
 
 
 
-2630
+2440
 
 peer2peer5_6.sm
 file
@@ -298,14 +230,14 @@ dxp
 
 2745
 
-peer2peer4_8.sm
+peer2peer4_7.sm
 file
 
 
 
 
 2014-02-03T08:43:59.268121Z
-a548b700b910291cf2398d11cf911138
+4a84726eb591f235e5453e7c7672ba94
 2007-12-03T10:08:50.845208Z
 539
 dxp
@@ -330,7 +262,7 @@ dxp
 
 
 
-2820
+2630
 
 peer2peer5_7.sm
 file
@@ -365,6 +297,40 @@ dxp
 
 
 2967
+
+peer2peer4_8.sm
+file
+
+
+
+
+2014-02-03T08:43:59.268121Z
+a548b700b910291cf2398d11cf911138
+2007-12-03T10:08:50.845208Z
+539
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2820
 
 peer2peer5_8.sm
 file
@@ -535,4 +501,38 @@ dxp
 
 
 189
+
+README.txt
+file
+
+
+
+
+2014-02-03T08:43:59.270120Z
+01acbd9605d21fd20250f4ae012a0e53
+2010-12-03T10:24:02.402614Z
+2315
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+270
 

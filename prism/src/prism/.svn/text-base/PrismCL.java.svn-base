@@ -178,7 +178,7 @@ public class PrismCL implements PrismModelListener
 	private double simWidth;
 	private int reqIterToConclude;
 	private double simMaxReward;
-	private int simMaxPath;
+	private long simMaxPath;
 	private boolean simApproxGiven = false;
 	private boolean simConfidenceGiven = false;
 	private boolean simNumSamplesGiven = false;
@@ -275,7 +275,7 @@ public class PrismCL implements PrismModelListener
 			if (simpath) {
 				try {
 					if (!simMaxPathGiven)
-						simMaxPath = prism.getSettings().getInteger(PrismSettings.SIMULATOR_DEFAULT_MAX_PATH);
+						simMaxPath = prism.getSettings().getLong(PrismSettings.SIMULATOR_DEFAULT_MAX_PATH);
 					File f = (simpathFilename.equals("stdout")) ? null : new File(simpathFilename);
 					prism.generateSimulationPath(modulesFile, simpathDetails, simMaxPath, f);
 				} catch (PrismException e) {
@@ -394,6 +394,7 @@ public class PrismCL implements PrismModelListener
 						// if required, check result against expected value
 						if (test) {
 							try {
+								mainLog.println();
 								Values allConsts = new Values(definedMFConstants);
 								allConsts.addValues(definedPFConstants);
 								if (propertiesToCheck.get(j).checkAgainstExpectedResult(res.getResult(), allConsts)) {
@@ -1511,7 +1512,7 @@ public class PrismCL implements PrismModelListener
 				else if (sw.equals("simpathlen")) {
 					if (i < args.length - 1) {
 						try {
-							simMaxPath = Integer.parseInt(args[++i]);
+							simMaxPath = Long.parseLong(args[++i]);
 							if (simMaxPath <= 0)
 								throw new NumberFormatException("");
 							simMaxPathGiven = true;
@@ -1824,6 +1825,8 @@ public class PrismCL implements PrismModelListener
 					exportStratType = StrategyExportType.INDICES;
 				else if (optVal.equals("induced"))
 					exportStratType = StrategyExportType.INDUCED_MODEL;
+				else if (optVal.equals("dot"))
+					exportStratType = StrategyExportType.DOT_FILE;
 				else
 					throw new PrismException("Unknown value \"" + optVal + "\" provided for \"type\" option of -exportstrat");
 			}
@@ -1997,7 +2000,7 @@ public class PrismCL implements PrismModelListener
 		if (!simMaxRewardGiven)
 			simMaxReward = prism.getSettings().getDouble(PrismSettings.SIMULATOR_MAX_REWARD);
 		if (!simMaxPathGiven)
-			simMaxPath = prism.getSettings().getInteger(PrismSettings.SIMULATOR_DEFAULT_MAX_PATH);
+			simMaxPath = prism.getSettings().getLong(PrismSettings.SIMULATOR_DEFAULT_MAX_PATH);
 
 		// Pick a default method, if not specified
 		// (CI for quantitative, SPRT for bounded)

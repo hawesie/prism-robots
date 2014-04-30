@@ -1,7 +1,61 @@
 K 25
 svn:wc:ra_dav:version-url
 V 82
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/userinterface/graph
+/svn/prism/!svn/ver/8169/prism/branches/prism-robots/prism/src/userinterface/graph
+END
+GraphException.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/userinterface/graph/GraphException.java
+END
+SeriesEditorDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/userinterface/graph/SeriesEditorDialog.java
+END
+SeriesEditor.form
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/userinterface/graph/SeriesEditor.form
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/userinterface/graph/package-info.java
+END
+AxisSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/prism/!svn/ver/8169/prism/branches/prism-robots/prism/src/userinterface/graph/AxisSettings.java
+END
+DisplaySettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/userinterface/graph/DisplaySettings.java
+END
+PrismXYSeries.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/userinterface/graph/PrismXYSeries.java
+END
+GUIImageExportDialog.form
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/userinterface/graph/GUIImageExportDialog.form
+END
+GraphOptionsPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/userinterface/graph/GraphOptionsPanel.java
 END
 Graph.java
 K 25
@@ -50,58 +104,4 @@ K 25
 svn:wc:ra_dav:version-url
 V 105
 /svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/userinterface/graph/GraphOptionsPanel.form
-END
-GraphException.java
-K 25
-svn:wc:ra_dav:version-url
-V 102
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/userinterface/graph/GraphException.java
-END
-SeriesEditorDialog.java
-K 25
-svn:wc:ra_dav:version-url
-V 106
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/userinterface/graph/SeriesEditorDialog.java
-END
-SeriesEditor.form
-K 25
-svn:wc:ra_dav:version-url
-V 100
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/userinterface/graph/SeriesEditor.form
-END
-package-info.java
-K 25
-svn:wc:ra_dav:version-url
-V 100
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/userinterface/graph/package-info.java
-END
-AxisSettings.java
-K 25
-svn:wc:ra_dav:version-url
-V 100
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/userinterface/graph/AxisSettings.java
-END
-PrismXYSeries.java
-K 25
-svn:wc:ra_dav:version-url
-V 101
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/userinterface/graph/PrismXYSeries.java
-END
-DisplaySettings.java
-K 25
-svn:wc:ra_dav:version-url
-V 103
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/userinterface/graph/DisplaySettings.java
-END
-GUIImageExportDialog.form
-K 25
-svn:wc:ra_dav:version-url
-V 108
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/userinterface/graph/GUIImageExportDialog.form
-END
-GraphOptionsPanel.java
-K 25
-svn:wc:ra_dav:version-url
-V 105
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/userinterface/graph/GraphOptionsPanel.java
 END

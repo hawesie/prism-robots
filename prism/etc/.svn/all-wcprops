@@ -1,13 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 62
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/etc
-END
-prism.css
-K 25
-svn:wc:ra_dav:version-url
-V 72
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/etc/prism.css
+/svn/prism/!svn/ver/8169/prism/branches/prism-robots/prism/etc
 END
 prism.tex
 K 25
@@ -26,4 +20,10 @@ K 25
 svn:wc:ra_dav:version-url
 V 90
 /svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/etc/prism-eclipse-formatter.xml
+END
+prism.css
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/etc/prism.css
 END

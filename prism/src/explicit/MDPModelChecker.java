@@ -36,14 +36,12 @@ import parser.ast.Expression;
 import parser.ast.ExpressionTemporal;
 import parser.ast.ExpressionUnaryOp;
 import parser.type.TypeDouble;
-import parser.visitor.ASTTraverse;
 import prism.DRA;
 import prism.Pair;
 import prism.PrismComponent;
 import prism.PrismDevNullLog;
 import prism.PrismException;
 import prism.PrismFileLog;
-import prism.PrismLangException;
 import prism.PrismLog;
 import prism.PrismUtils;
 import strat.MDStrategyArray;
@@ -228,23 +226,10 @@ public class MDPModelChecker extends ProbModelChecker
 		long time;
 
 		// Can't do LTL with time-bounded variants of the temporal operators
-		try {
-			expr.accept(new ASTTraverse()
-			{
-				public void visitPre(ExpressionTemporal e) throws PrismLangException
-				{
-					if (e.getLowerBound() != null)
-						throw new PrismLangException(e.getOperatorSymbol());
-					if (e.getUpperBound() != null)
-						throw new PrismLangException(e.getOperatorSymbol());
-				}
-			});
-		} catch (PrismLangException e) {
-			String s = "Temporal operators (like " + e.getMessage() + ")";
-			s += " cannot have time bounds for LTL properties";
-			throw new PrismException(s);
+		if (Expression.containsTemporalTimeBounds(expr)) {
+			throw new PrismException("Time-bounded operators not supported in LTL: " + expr);
 		}
-
+		
 		// For LTL model checking routines
 		mcLtl = new LTLModelChecker(this);
 
@@ -599,6 +584,7 @@ public class MDPModelChecker extends ProbModelChecker
 			// Export
 			PrismLog out = new PrismFileLog(exportAdvFilename);
 			new DTMCFromMDPMemorylessAdversary(mdp, strat).exportToPrismExplicitTra(out);
+			out.close();
 		}
 
 		// Update time taken
@@ -1496,6 +1482,7 @@ public class MDPModelChecker extends ProbModelChecker
 			// Export
 			PrismLog out = new PrismFileLog(exportAdvFilename);
 			new DTMCFromMDPMemorylessAdversary(mdp, strat).exportToPrismExplicitTra(out);
+			out.close();
 		}
 
 		// Finished expected reachability
@@ -1754,7 +1741,7 @@ public class MDPModelChecker extends ProbModelChecker
 			// Solve induced DTMC for strategy
 			dtmc = new DTMCFromMDPMemorylessAdversary(mdp, strat);
 			mcRewards = new MCRewardsFromMDPRewards(mdpRewards, strat);
-			res = mcDTMC.computeReachRewards(dtmc, mcRewards, target, reUseSoln ? soln : null, null);
+			res = mcDTMC.computeReachRewardsValIter(dtmc, mcRewards, target, inf, reUseSoln ? soln : null, null);
 			soln = res.soln;
 			totalIters += res.numIters;
 			// Check if optimal, improve non-optimal choices

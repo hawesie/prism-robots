@@ -36,12 +36,10 @@ import parser.ast.Expression;
 import parser.ast.ExpressionTemporal;
 import parser.ast.ExpressionUnaryOp;
 import parser.type.TypeDouble;
-import parser.visitor.ASTTraverse;
 import prism.DRA;
 import prism.Pair;
 import prism.PrismComponent;
 import prism.PrismException;
-import prism.PrismLangException;
 import prism.PrismUtils;
 import explicit.rewards.MCRewards;
 
@@ -215,21 +213,8 @@ public class DTMCModelChecker extends ProbModelChecker
 		long time;
 
 		// Can't do LTL with time-bounded variants of the temporal operators
-		try {
-			expr.accept(new ASTTraverse()
-			{
-				public void visitPre(ExpressionTemporal e) throws PrismLangException
-				{
-					if (e.getLowerBound() != null)
-						throw new PrismLangException(e.getOperatorSymbol());
-					if (e.getUpperBound() != null)
-						throw new PrismLangException(e.getOperatorSymbol());
-				}
-			});
-		} catch (PrismLangException e) {
-			String s = "Temporal operators (like " + e.getMessage() + ")";
-			s += " cannot have time bounds for LTL properties";
-			throw new PrismException(s);
+		if (Expression.containsTemporalTimeBounds(expr)) {
+			throw new PrismException("Time-bounded operators not supported in LTL: " + expr);
 		}
 
 		// For LTL model checking routines

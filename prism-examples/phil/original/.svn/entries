@@ -1,7 +1,7 @@
 10
 
 dir
-8127
+8170
 https://www.prismmodelchecker.org/svn/prism/prism/branches/prism-robots/prism-examples/phil/original
 https://www.prismmodelchecker.org/svn/prism
 
@@ -25,40 +25,6 @@ dxp
 
 
 bbc10eb1-c90d-0410-af57-cb519fbb1720
-
-.autopp
-file
-
-
-
-
-2014-02-03T08:43:59.358120Z
-c3669801a491ffcd2c056b26f79bd9de
-2010-05-30T20:49:35.223408Z
-1921
-dxp
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-152
 
 phil3.nm
 file
@@ -230,40 +196,6 @@ dxp
 
 1884
 
-phil8.nm
-file
-
-
-
-
-2014-02-03T08:43:59.359120Z
-1d070f38830f35358b2f688a75c0e722
-2008-11-14T10:49:43.880338Z
-823
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1974
-
 phil.pctl
 file
 
@@ -297,6 +229,40 @@ dxp
 
 
 126
+
+phil8.nm
+file
+
+
+
+
+2014-02-03T08:43:59.359120Z
+1d070f38830f35358b2f688a75c0e722
+2008-11-14T10:49:43.880338Z
+823
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1974
 
 phil9.nm
 file
@@ -400,40 +366,6 @@ dxp
 
 3108
 
-auto
-file
-
-
-
-
-2014-02-03T08:43:59.360120Z
-4d6951299f35941b398e37efc2505e3b
-2008-03-17T22:59:21.996312Z
-683
-dxp
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-444
-
 phil30.nm
 file
 
@@ -468,17 +400,18 @@ dxp
 
 4155
 
-README.txt
+auto
 file
 
 
 
 
 2014-02-03T08:43:59.360120Z
-09b45c70afd39ba9c93a46d2692b631f
-2010-12-03T10:24:02.402614Z
-2315
+4d6951299f35941b398e37efc2505e3b
+2008-03-17T22:59:21.996312Z
+683
 dxp
+has-props
 
 
 
@@ -499,8 +432,7 @@ dxp
 
 
 
-
-531
+444
 
 phil15.nm
 file
@@ -535,6 +467,40 @@ dxp
 
 
 2670
+
+README.txt
+file
+
+
+
+
+2014-02-03T08:43:59.360120Z
+09b45c70afd39ba9c93a46d2692b631f
+2010-12-03T10:24:02.402614Z
+2315
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+531
 
 phil25.nm
 file
@@ -603,4 +569,38 @@ dxp
 
 
 1499
+
+.autopp
+file
+
+
+
+
+2014-02-03T08:43:59.358120Z
+c3669801a491ffcd2c056b26f79bd9de
+2010-05-30T20:49:35.223408Z
+1921
+dxp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+152
 

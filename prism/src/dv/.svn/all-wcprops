@@ -1,7 +1,25 @@
 K 25
 svn:wc:ra_dav:version-url
 V 65
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/dv
+/svn/prism/!svn/ver/8169/prism/branches/prism-robots/prism/src/dv
+END
+DoubleVector.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/prism/!svn/ver/8169/prism/branches/prism-robots/prism/src/dv/DoubleVector.java
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/dv/Makefile
+END
+dv.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/dv/dv.cc
 END
 IntegerVector.java
 K 25
@@ -32,22 +50,4 @@ K 25
 svn:wc:ra_dav:version-url
 V 83
 /svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/dv/package-info.java
-END
-DoubleVector.java
-K 25
-svn:wc:ra_dav:version-url
-V 83
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/dv/DoubleVector.java
-END
-Makefile
-K 25
-svn:wc:ra_dav:version-url
-V 74
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/dv/Makefile
-END
-dv.cc
-K 25
-svn:wc:ra_dav:version-url
-V 71
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/dv/dv.cc
 END

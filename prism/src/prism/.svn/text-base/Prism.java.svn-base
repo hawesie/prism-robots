@@ -155,7 +155,7 @@ public class Prism extends PrismComponent implements PrismSettingsListener
 
 	// Options for type of strategy export
 	public enum StrategyExportType {
-		ACTIONS, INDICES, INDUCED_MODEL;
+		ACTIONS, INDICES, INDUCED_MODEL, DOT_FILE;
 		public String description()
 		{
 			switch (this) {
@@ -165,6 +165,8 @@ public class Prism extends PrismComponent implements PrismSettingsListener
 				return "as indices";
 			case INDUCED_MODEL:
 				return "as an induced model";
+			case DOT_FILE:
+				return "as a dot file";
 			default:
 				return this.toString();
 			}
@@ -2158,7 +2160,9 @@ public class Prism extends PrismComponent implements PrismSettingsListener
 				currentModelExpl.exportToPrismExplicitTra(tmpLog);
 				break;
 			case Prism.EXPORT_MATLAB:
+				throw new PrismException("Export not yet supported");
 			case Prism.EXPORT_DOT:
+				currentModelExpl.exportToDotFile(tmpLog);
 			case Prism.EXPORT_MRMC:
 			case Prism.EXPORT_ROWS:
 			case Prism.EXPORT_DOT_STATES:
@@ -2706,17 +2710,17 @@ public class Prism extends PrismComponent implements PrismSettingsListener
 				setEngine(Prism.EXPLICIT);
 			}
 		}
-		// Compatibility check
-		if (genStrat && currentModelType.nondeterministic() && !getExplicit()) {
-			if (!((NondetModel) currentModel).areAllChoiceActionsUnique())
-				throw new PrismException("Cannot generate strategies with the current engine "
-						+ "because some state of the model do not have unique action labels for each choice. "
-						+ "Either switch to the explicit engine or add more action labels to the model");
-		}
-
 		try {
 			// Build model, if necessary
 			buildModelIfRequired();
+
+			// Compatibility check
+			if (genStrat && currentModelType.nondeterministic() && !getExplicit()) {
+				if (!((NondetModel) currentModel).areAllChoiceActionsUnique())
+					throw new PrismException("Cannot generate strategies with the current engine "
+							+ "because some state of the model do not have unique action labels for each choice. "
+							+ "Either switch to the explicit engine or add more action labels to the model");
+			}
 
 			// Create new model checker object and do model checking
 			if (!getExplicit()) {
@@ -2822,7 +2826,7 @@ public class Prism extends PrismComponent implements PrismSettingsListener
 	 * @param maxPathLength The maximum path length for sampling
 	 * @param simMethod Object specifying details of method to use for simulation
 	 */
-	public Result modelCheckSimulator(PropertiesFile propertiesFile, Expression expr, Values definedPFConstants, State initialState, int maxPathLength,
+	public Result modelCheckSimulator(PropertiesFile propertiesFile, Expression expr, Values definedPFConstants, State initialState, long maxPathLength,
 			SimulationMethod simMethod) throws PrismException
 	{
 		Object res = null;
@@ -2859,7 +2863,7 @@ public class Prism extends PrismComponent implements PrismSettingsListener
 	 * @param simMethod Object specifying details of method to use for simulation
 	 */
 	public Result[] modelCheckSimulatorSimultaneously(PropertiesFile propertiesFile, List<Expression> exprs, Values definedPFConstants, State initialState,
-			int maxPathLength, SimulationMethod simMethod) throws PrismException
+			long maxPathLength, SimulationMethod simMethod) throws PrismException
 	{
 		Object[] res = null;
 
@@ -2912,7 +2916,7 @@ public class Prism extends PrismComponent implements PrismSettingsListener
 	 * @throws InterruptedException if the thread is interrupted
 	 */
 	public void modelCheckSimulatorExperiment(PropertiesFile propertiesFile, UndefinedConstants undefinedConstants, ResultsCollection results, Expression expr,
-			State initialState, int pathLength, SimulationMethod simMethod) throws PrismException, InterruptedException
+			State initialState, long maxPathLength, SimulationMethod simMethod) throws PrismException, InterruptedException
 	{
 		// Print info
 		mainLog.printSeparator();
@@ -2922,7 +2926,7 @@ public class Prism extends PrismComponent implements PrismSettingsListener
 		mainLog.println("Property constants: " + undefinedConstants.getPFDefinedConstantsString());
 
 		// Do simulation
-		getSimulator().modelCheckExperiment(currentModulesFile, propertiesFile, undefinedConstants, results, expr, initialState, pathLength, simMethod);
+		getSimulator().modelCheckExperiment(currentModulesFile, propertiesFile, undefinedConstants, results, expr, initialState, maxPathLength, simMethod);
 	}
 
 	/**
@@ -2997,6 +3001,9 @@ public class Prism extends PrismComponent implements PrismSettingsListener
 		case INDUCED_MODEL:
 			strat.exportInducedModel(tmpLog);
 			break;
+		case DOT_FILE:
+			strat.exportDotFile(tmpLog);
+			break;
 		}
 		if (file != null)
 			tmpLog.close();
@@ -3009,7 +3016,7 @@ public class Prism extends PrismComponent implements PrismSettingsListener
 	 * @param maxPathLength The maximum length of path to generate
 	 * @param file File to output the path to (stdout if null)
 	 */
-	public void generateSimulationPath(ModulesFile modulesFile, String details, int maxPathLength, File file) throws PrismException, PrismLangException
+	public void generateSimulationPath(ModulesFile modulesFile, String details, long maxPathLength, File file) throws PrismException, PrismLangException
 	{
 		GenerateSimulationPath genPath = new GenerateSimulationPath(getSimulator(), mainLog);
 		genPath.generateSimulationPath(modulesFile, null, details, maxPathLength, file);
@@ -3157,7 +3164,7 @@ public class Prism extends PrismComponent implements PrismSettingsListener
 			PrismModelExplorer modelExplorer = new PrismModelExplorer(getSimulator(), currentModulesFile);
 			FastAdaptiveUniformisation fau = new FastAdaptiveUniformisation(this, modelExplorer);
 			fau.setConstantValues(currentModulesFile.getConstantValues());
-			probsExpl = fau.doTransient(time, fileIn);
+			probsExpl = fau.doTransient(time, fileIn, currentModel);
 		}
 		// Symbolic
 		else if (!getExplicit()) {
@@ -3261,11 +3268,15 @@ public class Prism extends PrismComponent implements PrismSettingsListener
 
 			// FAU
 			if (currentModelType == ModelType.CTMC && settings.getString(PrismSettings.PRISM_TRANSIENT_METHOD).equals("Fast adaptive uniformisation")) {
-				// For FAU, we don't do computation incrementally
 				PrismModelExplorer modelExplorer = new PrismModelExplorer(getSimulator(), currentModulesFile);
 				FastAdaptiveUniformisation fau = new FastAdaptiveUniformisation(this, modelExplorer);
 				fau.setConstantValues(currentModulesFile.getConstantValues());
-				probsExpl = fau.doTransient(timeDouble, fileIn);
+				if (i == 0) {
+					probsExpl = fau.doTransient(timeDouble, fileIn, currentModel);
+					initTimeDouble = 0.0;
+				} else {
+					probsExpl = fau.doTransient(timeDouble - initTimeDouble, probsExpl);
+				}
 			}
 			// Symbolic
 			else if (!getExplicit()) {
@@ -3321,8 +3332,11 @@ public class Prism extends PrismComponent implements PrismSettingsListener
 			// print out or export probabilities
 			if (probs != null)
 				probs.print(tmpLog, fileOut == null, exportType == EXPORT_MATLAB, fileOut == null);
-			else
+			else if( settings.getString(PrismSettings.PRISM_TRANSIENT_METHOD).equals("Fast adaptive uniformisation") ){
+				probsExpl.print(tmpLog, fileOut == null, exportType == EXPORT_MATLAB, true, false);
+			} else {
 				probsExpl.print(tmpLog, fileOut == null, exportType == EXPORT_MATLAB, fileOut == null, true);
+			}
 
 			// print out computation time
 			mainLog.println("\nTime for transient probability computation: " + l / 1000.0 + " seconds.");
@@ -3468,10 +3482,7 @@ public class Prism extends PrismComponent implements PrismSettingsListener
 		// create new file log or use main log
 		PrismLog tmpLog;
 		if (file != null) {
-			tmpLog = new PrismFileLog(file.getPath(), append);
-			if (!tmpLog.ready()) {
-				throw new PrismException("Could not open file \"" + file + "\" for output");
-			}
+			tmpLog = PrismFileLog.create(file.getPath(), append);
 		} else {
 			tmpLog = mainLog;
 		}
@@ -3710,7 +3721,7 @@ public class Prism extends PrismComponent implements PrismSettingsListener
 	/**
 	 * Old API:
 	 */
-	public Result modelCheckSimulator(ModulesFile modulesFile, PropertiesFile propertiesFile, Expression expr, State initialState, int maxPathLength,
+	public Result modelCheckSimulator(ModulesFile modulesFile, PropertiesFile propertiesFile, Expression expr, State initialState, long maxPathLength,
 			SimulationMethod simMethod) throws PrismException
 	{
 		loadPRISMModel(modulesFile);
@@ -3721,7 +3732,7 @@ public class Prism extends PrismComponent implements PrismSettingsListener
 	 * Old API:
 	 */
 	public Result[] modelCheckSimulatorSimultaneously(ModulesFile modulesFile, PropertiesFile propertiesFile, List<Expression> exprs, State initialState,
-			int maxPathLength, SimulationMethod simMethod) throws PrismException
+			long maxPathLength, SimulationMethod simMethod) throws PrismException
 	{
 		loadPRISMModel(modulesFile);
 		return modelCheckSimulatorSimultaneously(propertiesFile, exprs, null, initialState, maxPathLength, simMethod);
@@ -3731,11 +3742,11 @@ public class Prism extends PrismComponent implements PrismSettingsListener
 	 * Old API:
 	 */
 	public void modelCheckSimulatorExperiment(ModulesFile modulesFile, PropertiesFile propertiesFile, UndefinedConstants undefinedConstants,
-			ResultsCollection results, Expression propertyToCheck, State initialState, int pathLength, SimulationMethod simMethod) throws PrismException,
+			ResultsCollection results, Expression propertyToCheck, State initialState, long maxPathLength, SimulationMethod simMethod) throws PrismException,
 			InterruptedException
 	{
 		loadPRISMModel(modulesFile);
-		modelCheckSimulatorExperiment(propertiesFile, undefinedConstants, results, propertyToCheck, initialState, pathLength, simMethod);
+		modelCheckSimulatorExperiment(propertiesFile, undefinedConstants, results, propertyToCheck, initialState, maxPathLength, simMethod);
 	}
 
 	/**

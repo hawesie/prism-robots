@@ -1,7 +1,7 @@
 10
 
 dir
-8127
+8170
 https://www.prismmodelchecker.org/svn/prism/prism/branches/prism-robots/prism-examples/dining_crypt
 https://www.prismmodelchecker.org/svn/prism
 
@@ -60,40 +60,6 @@ dxp
 
 2214
 
-.autopp
-file
-
-
-
-
-2014-02-03T08:43:59.249120Z
-40acbe2b8a763eef1b4fcaf5b835339d
-2007-11-01T12:35:39.434380Z
-498
-dxp
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-160
-
 dining_crypt4.nm
 file
 
@@ -127,6 +93,40 @@ dxp
 
 
 2386
+
+.autopp
+file
+
+
+
+
+2014-02-03T08:43:59.249120Z
+40acbe2b8a763eef1b4fcaf5b835339d
+2007-11-01T12:35:39.434380Z
+498
+dxp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+160
 
 dining_crypt5.nm
 file
@@ -162,40 +162,6 @@ dxp
 
 2559
 
-anonymity.pctl
-file
-
-
-
-
-2014-02-03T08:43:59.250120Z
-dee2676d5b468d4351028453f361c1ea
-2007-11-01T12:35:39.434380Z
-498
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-314
-
 dining_crypt6.nm
 file
 
@@ -229,6 +195,40 @@ dxp
 
 
 2732
+
+anonymity.pctl
+file
+
+
+
+
+2014-02-03T08:43:59.250120Z
+dee2676d5b468d4351028453f361c1ea
+2007-11-01T12:35:39.434380Z
+498
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+314
 
 dining_crypt7.nm
 file
@@ -298,40 +298,6 @@ dxp
 
 3079
 
-correctness.pctl
-file
-
-
-
-
-2014-02-03T08:43:59.251120Z
-65ea70fa36b526ef29d0b8ee7a511f4b
-2011-06-08T08:35:10.102337Z
-3036
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-392
-
 dining_crypt9.nm
 file
 
@@ -365,6 +331,40 @@ dxp
 
 
 3253
+
+correctness.pctl
+file
+
+
+
+
+2014-02-03T08:43:59.251120Z
+65ea70fa36b526ef29d0b8ee7a511f4b
+2011-06-08T08:35:10.102337Z
+3036
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+392
 
 dining_crypt10.nm
 file
@@ -400,40 +400,6 @@ dxp
 
 3444
 
-auto
-file
-
-
-
-
-2014-02-03T08:43:59.250120Z
-e4a29aa8d49954bd03d6659b3a47b334
-2008-03-18T17:08:37.325244Z
-692
-dxp
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-980
-
 dining_crypt15.nm
 file
 
@@ -467,6 +433,40 @@ dxp
 
 
 4400
+
+auto
+file
+
+
+
+
+2014-02-03T08:43:59.250120Z
+e4a29aa8d49954bd03d6659b3a47b334
+2008-03-18T17:08:37.325244Z
+692
+dxp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+980
 
 README.txt
 file

@@ -1,13 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 70
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/etc/scripts
-END
-prism-auto
-K 25
-svn:wc:ra_dav:version-url
-V 81
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/etc/scripts/prism-auto
+/svn/prism/!svn/ver/8169/prism/branches/prism-robots/prism/etc/scripts
 END
 prism2html
 K 25
@@ -56,4 +50,10 @@ K 25
 svn:wc:ra_dav:version-url
 V 86
 /svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/etc/scripts/prism-filler.py
+END
+prism-auto
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/prism/!svn/ver/8169/prism/branches/prism-robots/prism/etc/scripts/prism-auto
 END

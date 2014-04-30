@@ -1,43 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 68
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param
-END
-StateValues.java
-K 25
-svn:wc:ra_dav:version-url
-V 85
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/StateValues.java
-END
-RegionValues.java
-K 25
-svn:wc:ra_dav:version-url
-V 86
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/RegionValues.java
-END
-CachedFunctionFactory.java
-K 25
-svn:wc:ra_dav:version-url
-V 95
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/CachedFunctionFactory.java
-END
-DagOperator.java
-K 25
-svn:wc:ra_dav:version-url
-V 85
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/DagOperator.java
-END
-ResultExporter.java
-K 25
-svn:wc:ra_dav:version-url
-V 88
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/ResultExporter.java
-END
-RahdConstraintChecker.java
-K 25
-svn:wc:ra_dav:version-url
-V 95
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/RahdConstraintChecker.java
+/svn/prism/!svn/ver/8169/prism/branches/prism-robots/prism/src/param
 END
 Partition.java
 K 25
@@ -73,7 +37,7 @@ ParamModel.java
 K 25
 svn:wc:ra_dav:version-url
 V 84
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/ParamModel.java
+/svn/prism/!svn/ver/8169/prism/branches/prism-robots/prism/src/param/ParamModel.java
 END
 package-info.java
 K 25
@@ -117,23 +81,17 @@ svn:wc:ra_dav:version-url
 V 84
 /svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/NullLumper.java
 END
-DagFunction.java
-K 25
-svn:wc:ra_dav:version-url
-V 85
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/DagFunction.java
-END
 StrongLumper.java
 K 25
 svn:wc:ra_dav:version-url
 V 86
 /svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/StrongLumper.java
 END
-Lumper.java
+DagFunction.java
 K 25
 svn:wc:ra_dav:version-url
-V 80
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/Lumper.java
+V 85
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/DagFunction.java
 END
 StateEliminator.java
 K 25
@@ -141,17 +99,17 @@ svn:wc:ra_dav:version-url
 V 89
 /svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/StateEliminator.java
 END
+Lumper.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/Lumper.java
+END
 ParamModelChecker.java
 K 25
 svn:wc:ra_dav:version-url
 V 91
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/ParamModelChecker.java
-END
-ModelBuilder.java
-K 25
-svn:wc:ra_dav:version-url
-V 86
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/ModelBuilder.java
+/svn/prism/!svn/ver/8169/prism/branches/prism-robots/prism/src/param/ParamModelChecker.java
 END
 SymbolicEngine.java
 K 25
@@ -159,11 +117,11 @@ svn:wc:ra_dav:version-url
 V 88
 /svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/SymbolicEngine.java
 END
-RegionIntersection.java
+ModelBuilder.java
 K 25
 svn:wc:ra_dav:version-url
-V 92
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/RegionIntersection.java
+V 86
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/ModelBuilder.java
 END
 ParamRewardStruct.java
 K 25
@@ -171,11 +129,17 @@ svn:wc:ra_dav:version-url
 V 91
 /svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/ParamRewardStruct.java
 END
-RegionFactory.java
+RegionIntersection.java
 K 25
 svn:wc:ra_dav:version-url
-V 87
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/RegionFactory.java
+V 92
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/RegionIntersection.java
+END
+JasFunctionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/JasFunctionFactory.java
 END
 Optimiser.java
 K 25
@@ -183,11 +147,11 @@ svn:wc:ra_dav:version-url
 V 83
 /svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/Optimiser.java
 END
-JasFunctionFactory.java
+RegionFactory.java
 K 25
 svn:wc:ra_dav:version-url
-V 92
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/JasFunctionFactory.java
+V 87
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/RegionFactory.java
 END
 WeakLumper.java
 K 25
@@ -272,4 +236,40 @@ K 25
 svn:wc:ra_dav:version-url
 V 85
 /svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/RegionsTODO.java
+END
+StateValues.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/StateValues.java
+END
+RegionValues.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/RegionValues.java
+END
+CachedFunctionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/CachedFunctionFactory.java
+END
+DagOperator.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/DagOperator.java
+END
+ResultExporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/ResultExporter.java
+END
+RahdConstraintChecker.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/param/RahdConstraintChecker.java
 END

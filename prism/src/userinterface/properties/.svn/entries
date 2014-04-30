@@ -1,14 +1,14 @@
 10
 
 dir
-8127
+8170
 https://www.prismmodelchecker.org/svn/prism/prism/branches/prism-robots/prism/src/userinterface/properties
 https://www.prismmodelchecker.org/svn/prism
 
 
 
-2013-09-09T20:18:52.576110Z
-7370
+2014-04-29T19:55:09.525976Z
+8169
 dxp
 
 
@@ -26,116 +26,14 @@ dxp
 
 bbc10eb1-c90d-0410-af57-cb519fbb1720
 
-GUIMultiProperties.java
+ConstantHeader.form
 file
 
 
 
 
-2014-02-03T08:44:01.759120Z
-5381dc53e6b6b7b91022fa77a70a3c2a
-2013-05-03T22:27:27.698570Z
-6733
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-75617
-
-GUIExperimentPicker.java
-file
-
-
-
-
-2014-02-03T08:44:01.759120Z
-4575fd624d8a69825a10b6ccc90d96be
-2011-08-22T23:04:21.638792Z
-3524
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-15000
-
-ConstantPickerList.java
-file
-
-
-
-
-2014-02-03T08:44:01.759120Z
-be48d4cfaebfed1ddd7e3279226fd141
-2013-06-14T07:27:44.281752Z
-6927
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2873
-
-ConstantLine.form
-file
-
-
-
-
-2014-02-03T08:44:01.759120Z
-142ef6776726a7d544f66532ad4094c7
+2014-02-03T08:44:01.763120Z
+3380a25dc55308c5efa33231548dbbb0
 2007-12-19T15:11:06.217727Z
 552
 mxk
@@ -160,7 +58,41 @@ mxk
 
 
 
-11944
+11548
+
+GUILabel.java
+file
+
+
+
+
+2014-02-03T08:44:01.762120Z
+2ea50943340cea6d75988a6c0998d1e4
+2008-03-15T18:28:03.168348Z
+661
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2626
 
 GraphConstantHeader.java
 file
@@ -196,16 +128,16 @@ dxp
 
 4936
 
-package-info.java
+GUIGraphPicker.form
 file
 
 
 
 
-2014-02-03T08:44:01.759120Z
-418dcb213ea5c1216479167fa144618a
-2011-02-03T13:48:43.730653Z
-2436
+2014-02-03T08:44:01.763120Z
+f7e030817cdd5f7e6ce2230c89111a8d
+2006-03-03T16:25:15.929786Z
+2
 dxp
 
 
@@ -228,7 +160,7 @@ dxp
 
 
 
-104
+20617
 
 GUIPropertyResultDialog.form
 file
@@ -263,6 +195,40 @@ dxp
 
 
 19617
+
+GUIExperimentTable.java
+file
+
+
+
+
+2014-02-03T08:44:01.764118Z
+6c6234dcd1b9eea1cf3f41250f7445e2
+2012-02-09T20:24:07.172843Z
+4562
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6264
 
 GUIPropertiesList.java
 file
@@ -366,14 +332,14 @@ dxp
 
 30637
 
-ConstantHeader.java
+ConstantLine.java
 file
 
 
 
 
-2014-02-03T08:44:01.761120Z
-9f5366fe8f696e9c571cf05ab6ee93a2
+2014-02-03T08:44:01.758121Z
+95f40199b9bcc87190a8d94db31b29fb
 2010-11-19T18:45:24.187559Z
 2262
 dxp
@@ -398,75 +364,7 @@ dxp
 
 
 
-8030
-
-GUIPropertiesEvent.java
-file
-
-
-
-
-2014-02-03T08:44:01.761120Z
-c59519dd9b27f1a2860b95cbb5da658d
-2010-11-19T18:45:24.187559Z
-2262
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2308
-
-GUIGraphPicker.java
-file
-
-
-
-
-2014-02-03T08:44:01.761120Z
-c1254b941ce4ffab450a154b143d05a6
-2012-07-02T09:22:52.296709Z
-5413
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-24099
+14564
 
 GUIGraphHandler.java
 file
@@ -570,6 +468,40 @@ dxp
 
 5725
 
+GUIMultiProperties.java
+file
+
+
+
+
+2014-02-03T08:44:01.759120Z
+5381dc53e6b6b7b91022fa77a70a3c2a
+2013-05-03T22:27:27.698570Z
+6733
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+75617
+
 GUIResultsTable.java
 file
 
@@ -603,43 +535,6 @@ dxp
 
 
 4882
-
-GUIPropLabelList.java
-file
-
-
-
-
-2014-02-03T08:44:01.762120Z
-7955fb0492d2f0d7dea0c5839df46fc8
-2009-02-13T09:14:40.776918Z
-934
-mxk
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8784
-
-computation
-dir
 
 GUIPropertyEditor.form
 file
@@ -709,16 +604,16 @@ dxp
 
 10716
 
-GUILabel.java
+ConstantPickerList.java
 file
 
 
 
 
-2014-02-03T08:44:01.762120Z
-2ea50943340cea6d75988a6c0998d1e4
-2008-03-15T18:28:03.168348Z
-661
+2014-02-03T08:44:01.759120Z
+be48d4cfaebfed1ddd7e3279226fd141
+2013-06-14T07:27:44.281752Z
+6927
 dxp
 
 
@@ -741,16 +636,16 @@ dxp
 
 
 
-2626
+2873
 
-ConstantHeader.form
+ConstantLine.form
 file
 
 
 
 
-2014-02-03T08:44:01.763120Z
-3380a25dc55308c5efa33231548dbbb0
+2014-02-03T08:44:01.759120Z
+142ef6776726a7d544f66532ad4094c7
 2007-12-19T15:11:06.217727Z
 552
 mxk
@@ -775,7 +670,41 @@ mxk
 
 
 
-11548
+11944
+
+package-info.java
+file
+
+
+
+
+2014-02-03T08:44:01.759120Z
+418dcb213ea5c1216479167fa144618a
+2011-02-03T13:48:43.730653Z
+2436
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+104
 
 GUIExperiment.java
 file
@@ -810,40 +739,6 @@ dxp
 
 
 12011
-
-GUIGraphPicker.form
-file
-
-
-
-
-2014-02-03T08:44:01.763120Z
-f7e030817cdd5f7e6ce2230c89111a8d
-2006-03-03T16:25:15.929786Z
-2
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-20617
 
 GUIProperty.java
 file
@@ -913,48 +808,14 @@ dxp
 
 10060
 
-GUIExperimentTable.java
+ConstantHeader.java
 file
 
 
 
 
-2014-02-03T08:44:01.764118Z
-6c6234dcd1b9eea1cf3f41250f7445e2
-2012-02-09T20:24:07.172843Z
-4562
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6264
-
-ConstantLine.java
-file
-
-
-
-
-2014-02-03T08:44:01.758121Z
-95f40199b9bcc87190a8d94db31b29fb
+2014-02-03T08:44:01.761120Z
+9f5366fe8f696e9c571cf05ab6ee93a2
 2010-11-19T18:45:24.187559Z
 2262
 dxp
@@ -979,16 +840,16 @@ dxp
 
 
 
-14564
+8030
 
-GraphConstantPickerList.java
+GUIPropertiesEvent.java
 file
 
 
 
 
-2014-02-03T08:44:01.758121Z
-1dcb9af8168ff65371525d234193663b
+2014-02-03T08:44:01.761120Z
+c59519dd9b27f1a2860b95cbb5da658d
 2010-11-19T18:45:24.187559Z
 2262
 dxp
@@ -1013,7 +874,41 @@ dxp
 
 
 
-2882
+2308
+
+GUIGraphPicker.java
+file
+
+
+
+
+2014-02-03T08:44:01.761120Z
+c1254b941ce4ffab450a154b143d05a6
+2012-07-02T09:22:52.296709Z
+5413
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+24099
 
 GraphConstantLine.form
 file
@@ -1049,6 +944,40 @@ dxp
 
 8635
 
+GraphConstantPickerList.java
+file
+
+
+
+
+2014-02-03T08:44:01.758121Z
+1dcb9af8168ff65371525d234193663b
+2010-11-19T18:45:24.187559Z
+2262
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2882
+
 GUIPropertyResultDialog.java
 file
 
@@ -1082,4 +1011,75 @@ dxp
 
 
 12201
+
+GUIPropLabelList.java
+file
+
+
+
+
+2014-02-03T08:44:01.762120Z
+7955fb0492d2f0d7dea0c5839df46fc8
+2009-02-13T09:14:40.776918Z
+934
+mxk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8784
+
+computation
+dir
+
+GUIExperimentPicker.java
+file
+
+
+
+
+2014-02-03T08:44:01.759120Z
+4575fd624d8a69825a10b6ccc90d96be
+2011-08-22T23:04:21.638792Z
+3524
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15000
 

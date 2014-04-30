@@ -1,7 +1,7 @@
 10
 
 dir
-8127
+8170
 https://www.prismmodelchecker.org/svn/prism/prism/branches/prism-robots/prism-examples/cluster
 https://www.prismmodelchecker.org/svn/prism
 
@@ -25,6 +25,40 @@ dxp
 
 
 bbc10eb1-c90d-0410-af57-cb519fbb1720
+
+auto
+file
+
+
+
+
+2014-02-03T08:43:59.102120Z
+81e7593d56235aa34af32178a5e8e5ee
+2008-03-31T19:40:53.400431Z
+713
+dxp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+107
 
 README.txt
 file
@@ -127,38 +161,4 @@ dxp
 
 
 1496
-
-auto
-file
-
-
-
-
-2014-02-03T08:43:59.102120Z
-81e7593d56235aa34af32178a5e8e5ee
-2008-03-31T19:40:53.400431Z
-713
-dxp
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-107
 

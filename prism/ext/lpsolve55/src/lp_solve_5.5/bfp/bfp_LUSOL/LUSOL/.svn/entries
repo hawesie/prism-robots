@@ -1,7 +1,7 @@
 10
 
 dir
-8127
+8170
 https://www.prismmodelchecker.org/svn/prism/prism/branches/prism-robots/prism/ext/lpsolve55/src/lp_solve_5.5/bfp/bfp_LUSOL/LUSOL
 https://www.prismmodelchecker.org/svn/prism
 
@@ -25,74 +25,6 @@ dxp
 
 
 bbc10eb1-c90d-0410-af57-cb519fbb1720
-
-lusolio.h
-file
-
-
-
-
-2014-02-03T08:44:00.039120Z
-3e67bb130740b63befbb2c6ed01989b8
-2012-01-01T23:04:16.857372Z
-4297
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1014
-
-myblas.h
-file
-
-
-
-
-2014-02-03T08:44:00.040120Z
-1d0351b2f67a6be7c4be9f49e73204aa
-2012-01-01T23:04:16.857372Z
-4297
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5580
 
 lusol.c
 file
@@ -162,40 +94,6 @@ has-props
 
 5612
 
-mmio.c
-file
-
-
-
-
-2014-02-03T08:44:00.032120Z
-cd9dc8e1039ec347d4b29b77a6ab00ab
-2012-01-01T23:04:16.857372Z
-4297
-dxp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-12650
-
 bfile3.txt
 file
 
@@ -230,14 +128,14 @@ has-props
 
 66
 
-lusol.h
+mmio.c
 file
 
 
 
 
-2014-02-03T08:44:00.033120Z
-52b8d1269fab176c6c81632c544de26d
+2014-02-03T08:44:00.032120Z
+cd9dc8e1039ec347d4b29b77a6ab00ab
 2012-01-01T23:04:16.857372Z
 4297
 dxp
@@ -262,7 +160,41 @@ dxp
 
 
 
-14037
+12650
+
+lusolmain.c
+file
+
+
+
+
+2014-02-03T08:44:00.032120Z
+a2ef57ed459ecd229915f95593c0fe9e
+2012-01-01T23:04:16.857372Z
+4297
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15671
 
 Victoria1850.RUA
 file
@@ -298,14 +230,14 @@ dxp
 
 204426
 
-lusolmain.c
+lusol.h
 file
 
 
 
 
-2014-02-03T08:44:00.032120Z
-a2ef57ed459ecd229915f95593c0fe9e
+2014-02-03T08:44:00.033120Z
+52b8d1269fab176c6c81632c544de26d
 2012-01-01T23:04:16.857372Z
 4297
 dxp
@@ -330,7 +262,7 @@ dxp
 
 
 
-15671
+14037
 
 sherman5_rhs1.mtx
 file
@@ -400,18 +332,17 @@ dxp
 
 4320
 
-LUSOL_README.txt
+sherman5.mtx
 file
 
 
 
 
-2014-02-03T08:44:00.035120Z
-de64fd14a4a83bf5785e0c5556248c9f
+2014-02-03T08:44:00.034121Z
+1e2673e0959ea30aca2e6091c5e1e8e3
 2012-01-01T23:04:16.857372Z
 4297
 dxp
-has-props
 
 
 
@@ -432,7 +363,8 @@ has-props
 
 
 
-2185
+
+652188
 
 lusolmain.h
 file
@@ -468,17 +400,18 @@ dxp
 
 447
 
-sherman5.mtx
+LUSOL_README.txt
 file
 
 
 
 
-2014-02-03T08:44:00.034121Z
-1e2673e0959ea30aca2e6091c5e1e8e3
+2014-02-03T08:44:00.035120Z
+de64fd14a4a83bf5785e0c5556248c9f
 2012-01-01T23:04:16.857372Z
 4297
 dxp
+has-props
 
 
 
@@ -499,8 +432,7 @@ dxp
 
 
 
-
-652188
+2185
 
 lusol6u.c
 file
@@ -1045,4 +977,72 @@ dxp
 
 
 2975
+
+lusolio.h
+file
+
+
+
+
+2014-02-03T08:44:00.039120Z
+3e67bb130740b63befbb2c6ed01989b8
+2012-01-01T23:04:16.857372Z
+4297
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1014
+
+myblas.h
+file
+
+
+
+
+2014-02-03T08:44:00.040120Z
+1d0351b2f67a6be7c4be9f49e73204aa
+2012-01-01T23:04:16.857372Z
+4297
+dxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5580
 

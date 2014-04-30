@@ -1,13 +1,19 @@
 K 25
 svn:wc:ra_dav:version-url
 V 73
-/svn/prism/!svn/ver/7727/prism/branches/prism-robots/prism/src/parser/ast
+/svn/prism/!svn/ver/8169/prism/branches/prism-robots/prism/src/parser/ast
+END
+PropertiesFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/parser/ast/PropertiesFile.java
 END
 Expression.java
 K 25
 svn:wc:ra_dav:version-url
 V 89
-/svn/prism/!svn/ver/7727/prism/branches/prism-robots/prism/src/parser/ast/Expression.java
+/svn/prism/!svn/ver/8169/prism/branches/prism-robots/prism/src/parser/ast/Expression.java
 END
 ExpressionExists.java
 K 25
@@ -61,7 +67,7 @@ ExpressionSS.java
 K 25
 svn:wc:ra_dav:version-url
 V 91
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/parser/ast/ExpressionSS.java
+/svn/prism/!svn/ver/8169/prism/branches/prism-robots/prism/src/parser/ast/ExpressionSS.java
 END
 ExpressionFilter.java
 K 25
@@ -103,13 +109,7 @@ ExpressionProb.java
 K 25
 svn:wc:ra_dav:version-url
 V 93
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/parser/ast/ExpressionProb.java
-END
-Property.java
-K 25
-svn:wc:ra_dav:version-url
-V 87
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/parser/ast/Property.java
+/svn/prism/!svn/ver/8169/prism/branches/prism-robots/prism/src/parser/ast/ExpressionProb.java
 END
 package-info.java
 K 25
@@ -117,11 +117,17 @@ svn:wc:ra_dav:version-url
 V 91
 /svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/parser/ast/package-info.java
 END
-Filter.java
+Property.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/parser/ast/Property.java
+END
+Module.java
 K 25
 svn:wc:ra_dav:version-url
 V 85
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/parser/ast/Filter.java
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/parser/ast/Module.java
 END
 ExpressionFormula.java
 K 25
@@ -129,11 +135,11 @@ svn:wc:ra_dav:version-url
 V 96
 /svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/parser/ast/ExpressionFormula.java
 END
-Module.java
+Filter.java
 K 25
 svn:wc:ra_dav:version-url
 V 85
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/parser/ast/Module.java
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/parser/ast/Filter.java
 END
 DeclarationType.java
 K 25
@@ -165,11 +171,11 @@ svn:wc:ra_dav:version-url
 V 93
 /svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/parser/ast/ExpressionProp.java
 END
-FormulaList.java
+DeclarationBool.java
 K 25
 svn:wc:ra_dav:version-url
-V 90
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/parser/ast/FormulaList.java
+V 94
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/parser/ast/DeclarationBool.java
 END
 ExpressionITE.java
 K 25
@@ -177,11 +183,11 @@ svn:wc:ra_dav:version-url
 V 92
 /svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/parser/ast/ExpressionITE.java
 END
-DeclarationBool.java
+FormulaList.java
 K 25
 svn:wc:ra_dav:version-url
-V 94
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/parser/ast/DeclarationBool.java
+V 90
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/parser/ast/FormulaList.java
 END
 ExpressionTemporal.java
 K 25
@@ -199,7 +205,7 @@ ExpressionReward.java
 K 25
 svn:wc:ra_dav:version-url
 V 95
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/parser/ast/ExpressionReward.java
+/svn/prism/!svn/ver/8169/prism/branches/prism-robots/prism/src/parser/ast/ExpressionReward.java
 END
 Updates.java
 K 25
@@ -267,6 +273,12 @@ svn:wc:ra_dav:version-url
 V 89
 /svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/parser/ast/SystemDefn.java
 END
+RelOp.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/prism/!svn/ver/8169/prism/branches/prism-robots/prism/src/parser/ast/RelOp.java
+END
 Update.java
 K 25
 svn:wc:ra_dav:version-url
@@ -302,10 +314,4 @@ K 25
 svn:wc:ra_dav:version-url
 V 90
 /svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/parser/ast/Declaration.java
-END
-PropertiesFile.java
-K 25
-svn:wc:ra_dav:version-url
-V 93
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/parser/ast/PropertiesFile.java
 END

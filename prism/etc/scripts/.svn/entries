@@ -1,14 +1,14 @@
 10
 
 dir
-8127
+8170
 https://www.prismmodelchecker.org/svn/prism/prism/branches/prism-robots/prism/etc/scripts
 https://www.prismmodelchecker.org/svn/prism
 
 
 
-2012-12-17T10:21:20.105217Z
-6211
+2014-04-29T19:55:09.525976Z
+8169
 dxp
 
 
@@ -25,6 +25,40 @@ dxp
 
 
 bbc10eb1-c90d-0410-af57-cb519fbb1720
+
+prism-statra
+file
+
+
+
+
+2014-02-03T08:44:02.266120Z
+f73740c498e7b11c6a6c5fe13875df5d
+2009-08-07T11:06:18.861099Z
+1406
+dxp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+170
 
 prism-test
 file
@@ -202,10 +236,10 @@ file
 
 
 
-2014-02-03T08:44:02.265117Z
-0da6b1baa0b9104348fbc3c55014fea5
-2012-12-17T00:24:10.983271Z
-6209
+2014-04-30T09:47:14.833142Z
+198d51f8386f99ac06b1346833463a64
+2014-04-29T19:55:09.525976Z
+8169
 dxp
 has-props
 
@@ -228,7 +262,7 @@ has-props
 
 
 
-14909
+14913
 
 prism2html
 file
@@ -297,38 +331,4 @@ has-props
 
 
 426
-
-prism-statra
-file
-
-
-
-
-2014-02-03T08:44:02.266120Z
-f73740c498e7b11c6a6c5fe13875df5d
-2009-08-07T11:06:18.861099Z
-1406
-dxp
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-170
 

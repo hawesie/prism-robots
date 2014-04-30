@@ -1,13 +1,55 @@
 K 25
 svn:wc:ra_dav:version-url
 V 79
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/simulator/method
+/svn/prism/!svn/ver/8169/prism/branches/prism-robots/prism/src/simulator/method
+END
+APMCapproximation.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/simulator/method/APMCapproximation.java
+END
+CIwidth.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/simulator/method/CIwidth.java
+END
+ACIwidth.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/simulator/method/ACIwidth.java
+END
+CIMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/prism/!svn/ver/8169/prism/branches/prism-robots/prism/src/simulator/method/CIMethod.java
+END
+CIiterations.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/simulator/method/CIiterations.java
+END
+ACIiterations.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/simulator/method/ACIiterations.java
+END
+APMCconfidence.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/simulator/method/APMCconfidence.java
 END
 APMCMethod.java
 K 25
 svn:wc:ra_dav:version-url
 V 95
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/simulator/method/APMCMethod.java
+/svn/prism/!svn/ver/8169/prism/branches/prism-robots/prism/src/simulator/method/APMCMethod.java
 END
 APMCiterations.java
 K 25
@@ -37,53 +79,11 @@ SPRTMethod.java
 K 25
 svn:wc:ra_dav:version-url
 V 95
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/simulator/method/SPRTMethod.java
+/svn/prism/!svn/ver/8169/prism/branches/prism-robots/prism/src/simulator/method/SPRTMethod.java
 END
 ACIconfidence.java
 K 25
 svn:wc:ra_dav:version-url
 V 98
 /svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/simulator/method/ACIconfidence.java
-END
-APMCapproximation.java
-K 25
-svn:wc:ra_dav:version-url
-V 102
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/simulator/method/APMCapproximation.java
-END
-CIwidth.java
-K 25
-svn:wc:ra_dav:version-url
-V 92
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/simulator/method/CIwidth.java
-END
-ACIwidth.java
-K 25
-svn:wc:ra_dav:version-url
-V 93
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/simulator/method/ACIwidth.java
-END
-CIMethod.java
-K 25
-svn:wc:ra_dav:version-url
-V 93
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/simulator/method/CIMethod.java
-END
-CIiterations.java
-K 25
-svn:wc:ra_dav:version-url
-V 97
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/simulator/method/CIiterations.java
-END
-ACIiterations.java
-K 25
-svn:wc:ra_dav:version-url
-V 98
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/simulator/method/ACIiterations.java
-END
-APMCconfidence.java
-K 25
-svn:wc:ra_dav:version-url
-V 99
-/svn/prism/!svn/ver/7722/prism/branches/prism-robots/prism/src/simulator/method/APMCconfidence.java
 END

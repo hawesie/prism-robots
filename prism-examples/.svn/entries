@@ -1,7 +1,7 @@
 10
 
 dir
-8127
+8170
 https://www.prismmodelchecker.org/svn/prism/prism/branches/prism-robots/prism-examples
 https://www.prismmodelchecker.org/svn/prism
 
@@ -26,40 +26,28 @@ dxp
 
 bbc10eb1-c90d-0410-af57-cb519fbb1720
 
-molecules
-dir
-
-embedded
-dir
-
-dining_crypt
-dir
-
-peer2peer
-dir
-
 kanban
 dir
 
 rabin
 dir
 
-leader
+self-stabilisation
 dir
 
 phil
 dir
 
-self-stabilisation
+leader
 dir
 
 wlan
 dir
 
-polling
+dice
 dir
 
-dice
+polling
 dir
 
 mutual
@@ -133,5 +121,17 @@ fms
 dir
 
 zeroconf
+dir
+
+molecules
+dir
+
+peer2peer
+dir
+
+dining_crypt
+dir
+
+embedded
 dir
 
